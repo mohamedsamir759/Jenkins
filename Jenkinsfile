@@ -13,7 +13,7 @@ pipeline {
 
                 cd myapp
 
-                pip install -r requirements.txt
+                sudo pip install -r requirements.txt --break-system-packages
 
                 '''
 
